@@ -178,3 +178,11 @@ Success! Thank you! Your order will be delivered in next few weeks :-).
 2021-06-19 14:42:26,492 :INFO : test_e2e :Entering country name as Ind
 2021-06-19 14:42:32,069 :INFO : test_e2e :Text received from application is ×
 Success! Thank you! Your order will be delivered in next few weeks :-).
+2021-06-27 10:53:41,799 :INFO : test_e2e : Getting all card titles
+2021-06-27 10:53:41,832 :INFO : test_e2e :iphone X
+2021-06-27 10:53:41,845 :INFO : test_e2e :Samsung Note 8
+2021-06-27 10:53:41,858 :INFO : test_e2e :Nokia Edge
+2021-06-27 10:53:41,871 :INFO : test_e2e :Blackberry
+2021-06-27 10:53:42,096 :INFO : test_e2e :Entering country name as Ind
+2021-06-27 10:53:47,675 :INFO : test_e2e :Text received from application is ×
+Success! Thank you! Your order will be delivered in next few weeks :-).
