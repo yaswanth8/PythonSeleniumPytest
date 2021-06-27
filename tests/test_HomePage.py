@@ -16,9 +16,7 @@ class TestHomePage(BaseClass):
         homepage.getCheckBox().click()
         self.selectOptionByText(homepage.getGender(), getData["gender"])
         homepage.submitForm().click()
-
         alertText = homepage.getSuccessMessage().text
-
         assert ("Success" in alertText)
         self.driver.refresh()
 
