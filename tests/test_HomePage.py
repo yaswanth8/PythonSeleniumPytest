@@ -15,7 +15,6 @@ class TestHomePage(BaseClass):
         homepage.getEmail().send_keys(getData["lastname"])
         homepage.getCheckBox().click()
         self.selectOptionByText(homepage.getGender(), getData["gender"])
-
         homepage.submitForm().click()
 
         alertText = homepage.getSuccessMessage().text
