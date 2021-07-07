@@ -7,7 +7,6 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.select import Select
 
-
 @pytest.mark.usefixtures("setup")
 class BaseClass:
 
@@ -17,9 +16,7 @@ class BaseClass:
         fileHandler = logging.FileHandler('logfile.log')
         formatter = logging.Formatter("%(asctime)s :%(levelname)s : %(name)s :%(message)s")
         fileHandler.setFormatter(formatter)
-
         logger.addHandler(fileHandler)  # filehandler object
-
         logger.setLevel(logging.DEBUG)
         return logger
 
